@@ -13,7 +13,7 @@ public class Problem_4 : MonoBehaviour
     void Start()
     {
         List<int> numbers = new List<int>();
-        for (int n = 1; n <= 144) ;
+       /* for (int n = 1; n <= 144) ;
         {
             if (n % 2 == 1 && n % 7 == 0) ;
             {
@@ -22,6 +22,7 @@ public class Problem_4 : MonoBehaviour
         }
         print(numbers);
         int[] half = new int[5];
+       */
         
     }
 }
