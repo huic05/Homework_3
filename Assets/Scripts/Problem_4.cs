@@ -13,16 +13,31 @@ public class Problem_4 : MonoBehaviour
     void Start()
     {
         List<int> numbers = new List<int>();
-       /* for (int n = 1; n <= 144) ;
+        for (int n = 1; n <= 144; n++) 
         {
-            if (n % 2 == 1 && n % 7 == 0) ;
+            if (n % 2 == 1 && n % 7 == 0) 
             {
-                numbers.add(n);
+                numbers.Add(n);
             }
         }
-        print(numbers);
+        foreach(int v in numbers)
+        {
+            print(v);
+           
+        }
         int[] half = new int[5];
-       */
+        int y = 0;
+        for (int k = 0; k < numbers.Count; k += 2)
+        {
+           
+            half[y] = numbers[k];
+            y += 1;
+        }
+        foreach(int p in half)
+        {
+            print(p);
+        }
+       
         
     }
 }
