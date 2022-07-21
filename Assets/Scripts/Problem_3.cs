@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class Problem_3 : MonoBehaviour
@@ -18,5 +19,10 @@ public class Problem_3 : MonoBehaviour
     {
         string[] names = new string[6]{ "Clark", "Bruce", "Diana", "Barry", "Hal", "Arthur"};
         List<string> indexedNames = new List<string>();
+        for(int j = 0; j < names.Length; j++)
+        {
+
+        }
+        
     }
 }
